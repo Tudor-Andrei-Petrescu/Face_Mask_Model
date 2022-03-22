@@ -9,7 +9,7 @@ This is a personal project which is my introduction into Machine Learning, as we
 ## Training Walkthrough
 
 The first thing done was acquiring the dataset images. Then, they 70% of them are used for training, and the rest of them is used for validating : 
-<img src=data/screenshots/data_split.png width="1500" height="500">
+<img src=data/screenshots/data_split.png >
 
 Next, the CNN was designed. The architecture is as follows : 
 
@@ -27,16 +27,16 @@ model.add(layers.Dense(2,activation = 'softmax'))
 
 For the compiler, Adam optimizer is being used. Since the last layer uses Softmax, logits is set to `False` . Once the model was compiled, the model was trained, using the number of batches specified in the beginning. 
 
-<img src=data/screenshots/93%25.png width="1500" height="500">
+<img src=data/screenshots/93%25.png>
 
 A helper function has been designed to help test the model. It takes an imagepath as input, and then using the trained model it predicts whether the person in the picture wears a facemask. Some predictions can be observed below : 
 
-<img src=data/screenshots/mask.png width="1500" height="500">
-<img src=data/screenshots/wmask.png width="1500" height="500">
+<img src=data/screenshots/mask.png>
+<img src=data/screenshots/wmask.png >
 
 Lastly, the model is save to the specified filename.
 
-<img src=data/screenshots/saving.png width="1500" height="400">
+<img src=data/screenshots/saving.png>
 
 ## OpenCV
 
