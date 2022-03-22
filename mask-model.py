@@ -27,7 +27,6 @@ def processFrame(frame):
     text = predict(frame,loaded_model)
     for(x,y,w,h) in faces_rect:
         cv.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),thickness = 2)
-    if(len(faces_rect)>=0):
         cv.putText(img=frame, text= text, org=(img_height,img_width), fontFace=cv.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(255, 0, 0),thickness=3)
 
     return frame 
