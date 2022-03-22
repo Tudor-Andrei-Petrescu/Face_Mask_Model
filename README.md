@@ -57,4 +57,4 @@ while True:
 
 ## Conclusions
 
-While the end product is not perfect(The model is trained on only 14,000 images of people from the same frontal profile "wearing" the same type of mask, and haar_cascade struggles sometimes to find the face with a mask on), it has been a great tool of teaching myself some Image Processing, as well as an introduction into Machine Learning. 
+While the end product is not perfect(The model is trained on only 14,000 images of people from the same frontal profile "wearing" the same type of mask, and haar_cascade struggles sometimes to find the face with a mask on), it has been a great tool of teaching myself some things about Image Processing, as well as an introduction into Machine Learning. 
